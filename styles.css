@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.car-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px; /* Default width */
+    flex: 1; /* Fill remaining space */
+    max-width: calc(33.33% - 40px); /* Responsive width */
+}
+
+.car-card h2 {
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 1024px) {
+    .car-card {
+        max-width: calc(50% - 40px); /* Two cards per row */
+    }
+}
+
+@media (max-width: 600px) {
+    .car-card {
+        max-width: calc(100% - 40px); /* Single card per row */
+    }
+}
+.chandu
+{
+    width: 337px;
+    height: 149px;
+}
